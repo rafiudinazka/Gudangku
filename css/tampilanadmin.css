@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+}
+p {
+  font-size: 15px;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+hr.star-light {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  max-width: 1350px;
+  margin: 10px auto 30px;
+  border-color: #0F172A;
+}
+hr.star-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  max-width: 250px;
+  margin: 10px auto 30px;
+  border-color: #0F172A;
+}
+
+#wrapper {
+  width: 100%;
+}
+#page-wrapper {
+  padding: 0 15px;
+  min-height: 568px;
+  background-color: #F1F5F9; /* sama seperti section.bagian1 */
+}
+@media (min-width: 768px) {
+  #page-wrapper {
+    position: inherit;
+    margin: 0 0 0 250px;
+    padding: 0 30px;
+    border-left: 1px solid #CBD5E1;
+  }
+}
+
+.navbar {
+  background-color: #1E293B; /* sama dengan navbar-custom */
+  font-weight: 700;
+  font-family: Arial;
+  text-transform: uppercase;
+  border: none;
+}
+.navbar-top-links {
+  margin-right: 0;
+}
+.navbar-top-links li {
+  display: inline-block;
+}
+.navbar-top-links li:last-child {
+  margin-right: 15px;
+}
+.navbar-top-links li a {
+  padding: 15px;
+  min-height: 50px;
+  color: #F8FAFC; /* putih terang */
+}
+.navbar-top-links li a:hover {
+  color: #38BDF8; /* biru langit */
+}
+
+.sidebar {
+  background-color: #E2E8F0; /* slate terang */
+}
+.sidebar .sidebar-nav.navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
+.sidebar ul li {
+  border-bottom: 1px solid #CBD5E1;
+}
+.sidebar ul li a {
+  color: #1E293B;
+}
+.sidebar ul li a:hover {
+  background-color: #94A3B8;
+  color: #FFFFFF;
+}
+.sidebar ul li a.active {
+  background-color: #22C55E; /* hijau */
+  color: white;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    z-index: 1;
+    position: absolute;
+    width: 250px;
+    margin-top: 51px;
+  }
+  .navbar-top-links {
+    margin-left: auto;
+  }
+}
+
+footer {
+  color: #1E293B;
+  font-size: 15px;
+}
+footer .footer-below {
+  padding: 20px 0;
+  background-color: #64748B; /* selaras dengan footer pertama */
+}
+
+.img-profile {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.profile-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile-img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profile-name {
+  font-weight: bold;
+  color: #1E293B;
+}
