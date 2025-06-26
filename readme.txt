@@ -11,11 +11,11 @@
 - **Data Rak** - Manajemen lokasi penyimpanan barang
 - **Data Supplier** - Kelola informasi supplier/vendor
 - **Data Barang** - Master data produk/barang
-- **Data Barang Keluar** - Pencatatan barang yang keluar dari gudang
+- **Data Barang Keluar** - Pencatatan barang yang keluar dari gudang/persetujuan ajuan barang keluar
 
 ### 👷 Petugas
 - **Data Barang Masuk** - Input barang yang masuk ke gudang
-- **Data Ajuan** - Kelola permintaan/ajuan barang
+- **Data Ajuan** - Kelola permintaan/ajuan barang keluar
 
 ## 🚀 Teknologi yang Digunakan
 
