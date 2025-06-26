@@ -1,10 +1,5 @@
 # Gudangku - Sistem Manajemen Gudang 📦
 
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-
 ## 📋 Deskripsi
 
 **Gudangku** adalah aplikasi web sistem manajemen gudang yang dirancang untuk memudahkan pengelolaan inventori barang, tracking keluar masuk barang, dan manajemen supplier. Sistem ini dilengkapi dengan role-based access control untuk Admin dan Petugas.
